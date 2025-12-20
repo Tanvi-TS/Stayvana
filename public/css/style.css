@@ -1,0 +1,114 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color:#222222;
+} 
+
+/* Footer */
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color:#f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.f-info-links a{
+    text-decoration: none;
+    color : #212529;
+}
+.f-info-links a:hover{
+    text-decoration : underline;
+}
+.f-info-links, .f-info-socials{
+    width : 100%;
+}
+.f-info-socials i{
+   font-size: 1.2rem;
+   margin-right:1rem;
+   margin-top: 0.8rem;
+   vertical-align: middle;
+}
+.f-info-socials a{
+    text-decoration: none;
+    color : #212529;
+}
+
+/* CARDS */
+
+.card{
+    border: none;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+    height : 17rem;
+}
+.card-body{
+    padding: 0;
+}
+.card-text{
+    color : #222222 ;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color:white;
+}
+
+/* NEW  Listing*/
+.add-new-btn{
+    background-color: #fe424d;
+    color: white;
+    border: none;
+    height: 2rem;
+    width : 10rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+/* SHOW  */
+.show-img{
+    height : 70vh ;
+}
+.delete-btn{
+    background-color: #B22222;
+    color: white;
+    border: none;
+    height: 2rem;
+    width : 6rem;
+    border-radius: 0.5rem;
+}
+.edit-btn{
+    background-color: #212529;
+    color: white;
+    border: none;
+    height: 2rem;
+    width : 6rem;
+    border-radius: 0.5rem;
+} 
