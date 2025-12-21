@@ -1,0 +1,16 @@
+<% layout('/layouts/boilerplate') %>
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="card text-center shadow-lg" style="max-width: 420px; width: 100%;">
+        <div class="card-body">
+            <h1 class="display-4 text-danger">OOPS!</h1>
+            <h2 class="fw-bold">Error <%= statusCode %></h2>
+            <p class="text-muted"><%= message %></p>
+
+            <a href="/listings" class="btn btn-outline-danger mt-3">
+                Go Back
+            </a>
+        </div>
+    </div>
+</div>
+
