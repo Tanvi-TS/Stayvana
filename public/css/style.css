@@ -112,3 +112,14 @@ body{
     width : 6rem;
     border-radius: 0.5rem;
 } 
+
+/* Review */
+.listing-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.listing-card p {
+  margin-bottom: 6px;
+}
