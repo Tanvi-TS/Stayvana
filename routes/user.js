@@ -21,7 +21,7 @@ router.post("/signup", wrapAsync(async (req, res)=>{
             return next(err);
         }
         req.flash("success", "Welcome to Stayvana!");
-        res.redirect(req.session.redirectUrl); 
+        res.redirect("/listings"); 
     }) 
     }catch(err){
         if (err.code === 11000 && err.keyPattern.email) {
@@ -44,10 +44,9 @@ router.post("/login",
         failureRedirect: '/login', 
         failureFlash: true
     }),
-    (req, res) => {
+    async (req, res) => {
         req.flash("success", "Welcome back to Stayvana!");
-        const redirectUrl = req.session.redirectUrl || "/listings";
-        delete req.session.redirectUrl;
+        const redirectUrl = res.locals.redirectUrl || "/listings";
         res.redirect(redirectUrl);
     })
 

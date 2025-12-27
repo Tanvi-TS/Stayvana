@@ -8,6 +8,8 @@ body{
     flex: 1;
 }
 
+/* Navbar */
+
 .navbar{
     height: 4rem;
     background-color: white;
@@ -80,46 +82,98 @@ body{
     background-color:white;
 }
 
-/* NEW  Listing*/
-.add-new-btn{
+/* Show Page */
+
+.show-img {
+    height: 70vh;
+    border-radius: 1rem;
+}
+
+/*OWNER CARD*/
+
+.owner-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background-color: #fafafa;
+}
+.owner-details h6 {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 4px;
+}
+
+.owner-name {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.owner-email {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* Buttons */
+
+.add-new-btn {
     background-color: #fe424d;
     color: white;
     border: none;
-    height: 2rem;
-    width : 10rem;
+    height: 2.2rem;
+    width: 10rem;
     border-radius: 0.5rem;
     display: block;
     margin: 0 auto;
+    font-weight: 500;
 }
 
-/* SHOW  */
-.show-img{
-    height : 70vh ;
+.add-new-btn:hover {
+    background-color: #e8414b;
 }
-.delete-btn{
-    background-color: #B22222;
-    color: white;
-    border: none;
-    height: 2rem;
-    width : 6rem;
-    border-radius: 0.5rem;
-}
-.edit-btn{
-    background-color: #212529;
-    color: white;
-    border: none;
-    height: 2rem;
-    width : 6rem;
-    border-radius: 0.5rem;
-} 
 
-/* Review */
+.edit-btn {
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    height: 2.2rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+}
+
+.edit-btn:hover {
+    background-color: #115e59;
+}
+
+.delete-btn {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    height: 2.2rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+}
+
+.delete-btn:hover {
+    background-color: #8b1a1a;
+}
+
+/* REVIEWS */
+
 .listing-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 14px 16px;
 }
 
 .listing-card p {
-  margin-bottom: 6px;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.badge.bg-success {
+    font-size: 0.8rem;
+    padding: 6px 10px;
 }
