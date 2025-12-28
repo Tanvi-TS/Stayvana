@@ -49,10 +49,6 @@ const sessionOptions = {
     }
 }
 
-app.get("/", (req,res)=>{
-    res.send("Jai Ambey Maiya ki Jai");
-})
-
 app.use(session(sessionOptions));
 app.use(flash());
 

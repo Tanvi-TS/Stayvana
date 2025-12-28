@@ -1,0 +1,70 @@
+/* Navbar */
+.navbar {
+    height: 4rem;
+    background-color: white;
+    padding: 0.7rem 1.5rem;
+}
+
+/* Brand */
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.brand-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fe424d;
+}
+
+/* Nav links */
+.nav-link {
+    color: #222;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover {
+    color: #fe424d;
+}
+
+/* Search bar */
+.search-form {
+    background: #f7f7f7;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.search-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0.4rem 0.8rem;
+    width: 220px;
+}
+
+.search-input:focus {
+    box-shadow: none;
+}
+
+.search-btn {
+    background-color: #fe424d;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+}
+
+.search-btn:hover {
+    background-color: #e63b45;
+}
+
+/* Logout emphasis */
+.logout-link {
+    color: #fe424d;
+}
+
