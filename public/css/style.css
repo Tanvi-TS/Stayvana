@@ -172,3 +172,11 @@ body{
     margin-bottom: 6px;
     font-size: 0.95rem;
 }
+
+/* FORMS */
+textarea.form-control {
+    resize: vertical;
+    overflow-y: auto;
+}
+
+
