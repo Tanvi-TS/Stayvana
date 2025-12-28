@@ -85,13 +85,19 @@
           <label for="rating" class="form-label">
             Rating:
           </label>
-          <input 
-            id="rating" 
-            type="range" 
-            min="0" 
-            max="5" 
-            name="review[rating]"
-          >
+          <fieldset class="starability-slot">
+          <input type="radio" id="no-rate" class="input-no-rate" name="review[rating]" value="0" checked aria-label="No rating." />
+          <input type="radio" id="first-rate1" name="review[rating]" value="1" />
+          <label for="first-rate1" title="Terrible">1 star</label>
+          <input type="radio" id="first-rate2" name="review[rating]" value="2" />
+          <label for="first-rate2" title="Not good">2 stars</label>
+          <input type="radio" id="first-rate3" name="review[rating]" value="3" />
+          <label for="first-rate3" title="Average">3 stars</label>
+          <input type="radio" id="first-rate4" name="review[rating]" value="4" />
+          <label for="first-rate4" title="Very good">4 stars</label>
+          <input type="radio" id="first-rate5" name="review[rating]" value="5" />
+          <label for="first-rate5" title="Amazing">5 stars</label>
+        </fieldset>
         </div>
 
         <div class="mt-3">
@@ -134,13 +140,17 @@
         <div class="listing-card mb-3">
 
           <div class="d-flex justify-content-between align-items-center">
-            <strong>
+            <strong class="fs-5">
               @<%= review.author?.username || "User" %>
             </strong>
 
-            <span class="badge bg-success">
-              <%= review.rating %> ★
-            </span>
+            <p
+              class="starability-result"
+              data-rating="<%= review.rating %>"
+              aria-label="Rated <%= review.rating %> stars"
+            >
+              Rated: <%= review.rating %> stars
+            </p>
           </div>
 
           <p class="mt-2 mb-2">
