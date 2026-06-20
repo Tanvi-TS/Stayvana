@@ -34,55 +34,55 @@ Stayvana is a full-stack property rental platform that enables users to discover
 
 ## 🔑 Authentication & Authorization
 
-✅ User Signup and Login
-✅ Logout functionality
-✅ Session-based authentication
-✅ Passport.js integration
-✅ Protected routes
-✅ Owner-only listing management
-✅ Review author authorization
+- ✅ User Signup and Login
+- ✅ Logout functionality
+- ✅ Session-based authentication
+- ✅ Passport.js integration
+- ✅ Protected routes
+- ✅ Owner-only listing management
+- ✅ Review author authorization
 
 ---
 
 ## 🏡 Property Listings
 
-✅ Create listings
-✅ View all listings
-✅ Individual listing pages
-✅ Update listings
-✅ Delete listings
-✅ Ownership-based access control
-✅ Single image upload support
+- ✅ Create listings
+- ✅ View all listings
+- ✅ Individual listing pages
+- ✅ Update listings
+- ✅ Delete listings
+- ✅ Ownership-based access control
+- ✅ Single image upload support
 
 ---
 
 ## ☁️ Image Management
 
-✅ Multer integration
-✅ Cloudinary storage
-✅ Image replacement during updates
-✅ Secure file uploads
+- ✅ Multer integration
+- ✅ Cloudinary storage
+- ✅ Image replacement during updates
+- ✅ Secure file uploads
 
 ---
 
 ## ⭐ Reviews & Ratings
 
-✅ Add reviews
-✅ Delete own reviews
-✅ 5-star rating system
-✅ User-attributed reviews
-✅ Automatic cleanup of associated reviews when listings are deleted
+- ✅ Add reviews
+- ✅ Delete own reviews
+- ✅ 5-star rating system
+- ✅ User-attributed reviews
+- ✅ Automatic cleanup of associated reviews when listings are deleted
 
 ---
 
 ## 🎨 User Interface
 
-✅ Bootstrap 5.3.8
-✅ Responsive layout
-✅ Flash messages
-✅ EJS templates with EJS-Mate layouts
-✅ Font Awesome icons
-✅ Plus Jakarta Sans typography
+- ✅ Bootstrap 5.3.8
+- ✅ Responsive layout
+- ✅ Flash messages
+- ✅ EJS templates with EJS-Mate layouts
+- ✅ Font Awesome icons
+- ✅ Plus Jakarta Sans typography
 
 ---
 
