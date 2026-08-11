@@ -5,9 +5,9 @@ if(process.env.NODE_ENV != "production"){
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-let port = 8080;
+let port = process.env.PORT || 8080;
 const Listing = require("./models/listing.js");
-const mongo_url = "mongodb://127.0.0.1:27017/stayvana";
+const mongo_url = process.env.MONGO_URI;
 const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
@@ -39,7 +39,7 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 const sessionOptions = {
-    secret: "tanvisupersecretcode",
+    secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: {
