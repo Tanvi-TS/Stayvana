@@ -2,6 +2,9 @@
 
 A modern, full-stack property rental platform built using Node.js, Express, MongoDB, and Cloudinary.
 
+🔗 **Live Demo:** [Stayvana](https://stayvana.onrender.com/) <br>
+📂 **Repository:** [GitHub](https://github.com/Tanvi-TS/Stayvana)
+
 [Features](#-features) •
 [Tech Stack](#️-tech-stack) •
 [Installation](#-installation) •
